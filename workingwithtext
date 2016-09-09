@@ -1,0 +1,37 @@
+ 
+public class Application {
+	public static void main(String[] args) {
+		int myInt = 7;
+		
+		String text = "hello";
+		System.out.println(text);
+		
+		String blank = " ";
+		
+		String name = "bob";
+		
+		String greeting = text + blank + name;
+		System.out.println(greeting);
+		
+		System.out.println("hello" + " " + "bob");
+		
+		System.out.println("My Integer is: " + myInt);
+		
+		double myDouble = 1.1;
+		
+		System.out.println("my number is:" + myDouble + ".");
+		
+		/**
+		 * Dentro de un objeto de la clases String o 
+		 * StringBuffer, Java crea un array de 
+		 * caracteres de una forma similar a como lo 
+		 * hace el lenguaje C++. A este array se accede a 
+		 * través de las funciones miembro de la clase.
+
+Los strings u objetos de la clase String se pueden crear 
+explícitamente o implícitamente. Para crear un string 
+implícitamente basta poner una cadena de caracteres entre 
+comillas dobles. Por ejemplo, cuando se escribe
+		 */
+	}
+}
