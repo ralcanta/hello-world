@@ -1,0 +1,26 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int myNumber=88;
+		short myShort =886;
+		long myLong=13123;
+		
+		double myDouble=1.131;
+		float myFloat =3123.4f;
+		char myChar = 'y';
+		boolean myBoolean = false;
+		byte myByte = 127;
+		
+		System.out.println(myByte);
+		System.out.println(myNumber);
+		System.out.println(myShort);
+		System.out.println(myLong);
+		System.out.println(myDouble);
+		System.out.println(myFloat);
+		System.out.println(myChar);
+		System.out.println(myBoolean);
+	}
+
+}
