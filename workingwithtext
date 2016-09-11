@@ -33,5 +33,18 @@ explícitamente o implícitamente. Para crear un string
 implícitamente basta poner una cadena de caracteres entre 
 comillas dobles. Por ejemplo, cuando se escribe
 		 */
+		 
+		 //This is how java stores String values
+		 
+		 String s1 = "hello";
+		 String s2 = "hello";
+		 System.out.println(s1==s2);
+		 //this is true because they have the same location in memory, java asigns them to the same value
+		 //on memory so it doesn{ñt need to create the object twice
+		 
+		 String s3 =new String ("hello");
+		 String s4=new String ("hello");
+		 System.out.println(s3==s4);
+		 //This would be false because java is creating a new object for each variable.
 	}
 }
