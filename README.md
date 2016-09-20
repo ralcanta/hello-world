@@ -1,3 +1,2 @@
 # hello-world
-I will put my projects on java here and update them using more advanced java techniques
-just making changes to the readme file, 
+I've been updating my projects every time I study, I hope this will help me to become good at java, to be able to apply for a position in a software development department. This in the near future.
