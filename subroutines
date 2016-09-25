@@ -1,0 +1,45 @@
+class Person {
+
+	// Instance variables (Data or "state")
+	String name;
+	int age;
+
+	// Classes can contain
+
+	// 1.Data
+	// 2. Subroutines (methods)
+	
+	void speak () {
+		
+		for (int i=0; i<3; i++)
+		 System.out.println("my name is: " + name + " and i am " + age + " years old");
+	}
+	
+	void sayHello () {
+		System.out.println("Hello there");
+	}
+
+}
+
+public class App {
+
+	public static void main(String[] args) {
+
+		Person person1 = new Person();
+		// variable of type person, can refer to person object
+
+		person1.name = "Joe Bloggs";
+		person1.age = 36;
+		person1.speak();
+		person1.sayHello();
+
+		Person person2 = new Person();
+		person2.name = "sara smith";
+		person2.age = 20;
+		person2.speak();
+
+		System.out.println(person1.name);
+
+	}
+
+}
