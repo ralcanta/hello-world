@@ -1,0 +1,19 @@
+
+public class app2 {
+public static void main(String[] args) {
+	int i;
+for(i=1;i<101;i++){
+String oddornot;
+	 
+	if ((i%2)==0){
+		oddornot = "even";
+	}
+		else{
+			oddornot = "odd";
+		}
+			
+
+System.out.println(i +" "+ oddornot);
+}
+}
+}
