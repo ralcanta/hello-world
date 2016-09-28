@@ -1,0 +1,38 @@
+class Machine {
+	private String name;
+	private int code;
+	
+	public Machine(){
+		this("Arnie",0);
+		System.out.println("Constructor running!");
+		//using this to call a constructor  to accept this parameters, needs to be the
+		//first line
+		
+	}
+	
+	public Machine(String name){
+		this(name, 0);
+		System.out.println("Second constructor running");
+		this.name = name;
+	}
+	public Machine(String name, int code) {
+		System.out.println("Third Constructor running");
+		this.name = name;
+		this.code = code;
+		
+	}
+	
+}
+
+public class App {
+
+	public static void main(String[] args) {
+		// with constructors you dont need to do Machine machine1 = new
+		// Machine();
+		new Machine();
+		// this will look for constructor that accepts a string
+		//Machine machine2 = new Machine("Bertie");
+		
+		//Machine machine3 = new Machine ("Chalky",7);
+	}
+}
