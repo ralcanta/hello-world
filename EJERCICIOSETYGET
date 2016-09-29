@@ -1,0 +1,48 @@
+ class Student{
+	
+	private String name;
+	private String lastname;
+	private String email;
+	
+	public String getName(){
+	return name;
+	}
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	
+	public String getLastName(){
+		return lastname;
+	}
+	
+	public void setLastName(String lastname){
+		this.lastname = lastname;
+	}
+	
+	public String getEmail(){
+		return email;
+	}
+	
+	public void setEmail(String email){
+		this.email = email;
+	}
+		
+}
+
+
+public class App {
+
+	public static void main (String args[]){
+
+		Student student1 = new Student();
+		
+		student1.setName("Pedrito");
+		student1.setLastName("Alvarez");
+		student1.setEmail("fdsa@hotmail.com");
+		
+		System.out.println("nombre: " + student1.getName());
+		System.out.println("apellido: "  + student1.getLastName());
+		System.out.println("correo electronico: " + student1.getEmail());
+	}
+}
